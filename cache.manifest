@@ -1,0 +1,17 @@
+CACHE MANIFEST
+
+# Bump this with each release:
+# Serial number 1
+
+galler/touch-icons/startup.png
+gallery/assets/snap.js
+gallery/assets/snap.css
+gallery/assets/open.png
+assets/bakgrund1.png
+
+
+NETWORK:
+new.php
+insert-into-log.php
+delete-log-entry.php
+update-log-entry.php
