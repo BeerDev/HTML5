@@ -7,24 +7,24 @@ BeerDev - Kistans Ölsortiment
  * Christopher State
 
 
-* HTML5 App <br />
 * Javascript<br />
+* JSON<br />
 * HTML5<br />
 * CSS3<br />
 
-> Dosen't work locally, you'll need to have a server (JSON)
+> Server-side application (JSON + images)
 
-![alt tag](https://raw.github.com/beerdev/HTML5/master/src/assets/img/Start.png)![alt tag](https://raw.github.com/beerdev/HTML5/master/src/assets/img/SMenu.png)
+![alt tag](https://raw.github.com/beerdev/HTML5/master/src/assets/img/Start.png)
+![alt tag](https://raw.github.com/beerdev/HTML5/master/src/assets/img/SMenu.png)
 
 
 Credits
 ==============================
-Jacob Kelley - Snap.js - https://github.com/jakiestfu/Snap.js/
+Jacob Kelley - Snap.js - https://github.com/jakiestfu/Snap.js/ <br />
 Matteo Spinelli - Swipeview.js - https://github.com/cubiq/SwipeView
 
 Licence
 ==============================
-MIT
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
