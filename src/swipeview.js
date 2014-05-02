@@ -1,10 +1,8 @@
-/* 
-
-BeerDev - HTML5 App
-Inital version: 0.5
-Christopher State
-
-*/
+/*
+ * BeerDev - HTML5 App
+ * Initial version: 0.6
+ * Christopher State
+ */
 
 var SwipeView = (function (window, document) {
 	var dummyStyle = document.createElement('div').style,

@@ -1,0 +1,184 @@
+<!--
+
+BeerDev - HTML5 App
+Initial version: 0.6
+Christopher State
+
+-->
+
+<!DOCTYPE html>
+<html manifest="../cache.manifest">
+	<head>
+		<meta charset="utf-8">
+		<title>Beerdev</title>
+
+		<!-- Sets initial viewport load and disables zooming	-->
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!-- Set Apple icons for when prototype is saved to home screen -->
+
+		<link rel="apple-touch-startup-image" href="touch-icons/startup.png" />
+
+		<!-- iPhone ICON -->
+        <link href="touch-icons/apple-touch-icon-57x57.png" sizes="57x57" rel="apple-touch-icon">
+        <!-- iPad ICON-->
+        <link href="touch-icons/apple-touch-icon-72x72.png" sizes="72x72" rel="apple-touch-icon">
+        <!-- iPhone (Retina) ICON-->
+        <link href="touch-icons/apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon">
+        <!-- iPad (Retina) ICON-->
+        <link href="touch-icons/apple-touch-icon-114x114.png" sizes="144x144" rel="apple-touch-icon">
+
+        <!-- iPhone SPLASHSCREEN-->
+        <link href="touch-icons/startup.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
+        <!-- iPhone (Retina) SPLASHSCREEN-->
+        <link href="touch-icons/startup.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <!-- iPad (portrait) SPLASHSCREEN-->
+        <link href="touch-icons/startup.png" media="(device-width: 768px) and (orientation: portrait)" rel="apple-touch-startup-image">
+        <!-- iPad (landscape) SPLASHSCREEN-->
+        <link href="touch-icons/startup.png" media="(device-width: 768px) and (orientation: landscape)" rel="apple-touch-startup-image">
+        <!-- iPad (Retina, portrait) SPLASHSCREEN-->
+        <link href="touch-icons/startup.png" media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <!-- iPad (Retina, landscape) SPLASHSCREEN-->
+        <link href="touch-icons/startup.png" media="(device-width: 1536px)  and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+
+     	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="src/swipeview.js"></script>
+		<script type="text/javascript" src="src/JSONData.js"></script>
+
+		<!-- Include the base Snap.js CSS -->
+		<link rel="stylesheet" href="src/snap.css">
+
+		<!-- Include the compiled Ratchet CSS -->
+		<link rel="stylesheet" href="src/ratchet.css">
+
+		<link href="src/style.css" rel="stylesheet" type="text/css">
+	
+	</head>
+	<body>
+		
+	<div class="snap-drawers">
+		<div class="snap-drawer snap-drawer-left" id="left-drawer">
+
+		<ul class="list">
+			 <li><a href="#" data-ignore="push">Default</a></li>
+			  <li>List item 2 <span class="chevron"></span></li>
+			  <li>List item 3 <span class="chevron"></span></li>
+			  <li>List item 4 <span class="chevron"></span></li>
+			  <li>List item 5 <span class="chevron"></span></li>
+			  <li>List item 6 <span class="chevron"></span></li>
+			  <li>List item 7 <span class="chevron"></span></li>
+			  <li>List item 8 <span class="chevron"></span></li>
+			  <li>List item 9 <span class="chevron"></span></li>
+			  <li>List item 10 <span class="chevron"></span></li>
+			  <li>List item 1 <span class="chevron"></span></li>
+			  <li>List item 12 <span class="chevron"></span></li>
+			  <li>List item 13 <span class="chevron"></span></li>
+			  <li>List item 14 <span class="chevron"></span></li>
+			  <li>List item 15 <span class="chevron"></span></li>
+			  <li>List item 16 <span class="chevron"></span></li>
+			  <li>List item 17 <span class="chevron"></span></li>
+			  <li>List item 18 <span class="chevron"></span></li>
+			  <li>List item 19 <span class="chevron"></span></li>
+			  <li>List item 20 <span class="chevron"></span></li>
+			</ul>
+		</div>
+
+		<div class="snap-drawer snap-drawer-right" id="right-drawer">
+
+		<ul class="list">
+              <br /><h2>Kistans Ölsortiment</h2><br />
+			  
+			  <div class="menu">
+			  <div class="galleri"><a href="#" data-ignore="push"><img src="src/assets/img/Galleri.png"/></a></div>
+			  <div class="galleri"><a href="#" data-ignore="push"><img src="src/assets/img/Lista.png"/></a></div>
+			  <div class="galleri"><a href="#" data-ignore="push"><img src="src/assets/img/Oltyper.png"/></a></div>
+			  <div class="galleri"><a href="#" data-ignore="push"><img src="src/assets/img/Kistan.png"/></a></div>
+			  <div class="galleri"><a href="#" data-ignore="push"><img src="src/assets/img/Utvecklare.png"/></a></div></div>
+				<br />
+			  <div class="demo-social">
+        		<iframe src="http://ghbtns.com/github-btn.html?user=beerdev&amp;repo=iOSapp&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="120" height="20"></iframe>
+        		  <a href="https://twitter.com/share" class="twitter-share-button" data-lang="sv">Tweeta</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fbeerdev.info&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=135749422492" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe>
+			</div>
+		</div>
+	</div>
+	
+	<div id="content" class="snap-content">
+	
+		<!-- Make sure all your bars are the first things in your <body> -->
+		<header class="bar-title">
+			<button class="button" id="toggle-left"></button>
+			<button class="button" id="toggle-right"></button>
+		</header>
+	
+		<!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+		<div class="content">
+
+			<div id="wrapper"></div>
+
+	<div id="do-drag"></div>
+	
+		</div>
+	</div>
+	<script type="text/javascript" src="src/snap.js"></script>
+	<script type="text/javascript">
+
+		var 
+		
+		// Helper
+		$ = function(id){
+			return document.getElementById(id);
+		},
+		
+		// Instance
+		snapper = new Snap({
+			element: document.getElementById('content'),
+            dragger: document.getElementById('do-drag')
+		}),
+		
+		// 
+		UpdateDrawers = function(){
+			var state = snapper.state(),
+				towards = state.info.towards,
+				opening = state.info.opening;
+			if(opening=='right' && towards=='left'){
+				$('right-drawer').classList.add('active-drawer');
+				$('left-drawer').classList.remove('active-drawer');
+			} else if(opening=='left' && towards=='right') {
+				$('right-drawer').classList.remove('active-drawer');
+				$('left-drawer').classList.add('active-drawer');
+			}
+		};
+		
+		snapper.on('drag', UpdateDrawers);
+		snapper.on('animating', UpdateDrawers);
+		snapper.on('animated', UpdateDrawers);
+		
+
+	$('toggle-left').addEventListener('click', function(){
+
+	    if( snapper.state().state=="left" ){
+	        snapper.close();
+	    } else {
+	        snapper.open('left');
+	    }
+	});
+
+	$('toggle-right').addEventListener('click', function(){
+
+		if( snapper.state().state=="right" ){
+		        snapper.close();
+		} else {
+		        snapper.open('right');
+		}
+	});
+
+	</script>	
+    </body>
+</html>
